@@ -45,7 +45,7 @@ export const useTextToSpeech = () => {
     }
     utterance.lang = 'cs-CZ';
     utterance.pitch = 1;
-    utterance.rate = 1.1;
+    utterance.rate = 1.2;
     utterance.volume = 1;
 
     utterance.onstart = () => setIsSpeaking(true);
